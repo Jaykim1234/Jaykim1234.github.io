@@ -40,6 +40,8 @@ run;
 
 ![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
 
+
+## **MERGE**
 data tmp_data3;
 
 ​    MERGE c.ctbs0413_02_disease c.ctbs0413_04_drug;
@@ -54,7 +56,7 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hsj2864&logN
 
 
 
-## SQL
+## **SQL**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386182-d02c4200-e3d6-11eb-8a48-7d9ea2b50934.png)
 
