@@ -4,11 +4,11 @@
 
 ## **< Simple regression analysis >**
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![image](https://user-images.githubusercontent.com/78076248/125380191-c43b8280-e3cc-11eb-9f73-03c398423804.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380202-c7367300-e3cc-11eb-8044-3d2eccdba4e4.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380207-c998cd00-e3cc-11eb-897e-3b496d3e6d11.png)
 
  
 
@@ -26,7 +26,7 @@
 - The F distribution is a theoretical distribution. There are many of these distributions, and each of them differs based on the degrees of freedom.
 - The F value and the degrees of freedom of the sources of variance are used to determine the probability of the F value. The probability is the significance value for the test.
 
-[Source : https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=terms-f-value]()
+[`Source : https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=terms-f-value`]()
 
 **R-squared**
 
@@ -38,7 +38,7 @@
 
 - Adjusted R-squared can provide a ‘more precise’ view of that correlation by also taking into account how many independent variables are added to a particular model. This is done because such additions of independent variables usually increase the reliability of that model—meaning, for investors, the correlation with the index.
 
-[Source : https://www.investopedia.com/ask/answers/012615/whats-difference-between-rsquared-and-adjusted-rsquared.asp]()
+[`Source : https://www.investopedia.com/ask/answers/012615/whats-difference-between-rsquared-and-adjusted-rsquared.asp`]()
 
 **MSE**
 
@@ -50,7 +50,7 @@
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380314-fb119880-e3cc-11eb-8a67-092741ddf5ea.png)
 
 **Confidence limits**
 
@@ -64,7 +64,7 @@
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380322-006ee300-e3cd-11eb-8c35-375db6a261b6.png)
 
  
 
@@ -72,9 +72,9 @@
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380331-05339700-e3cd-11eb-9c27-427818a9ade1.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380340-0795f100-e3cd-11eb-9b18-b8e424b9c980.png)
 
  
 
@@ -92,7 +92,7 @@
 
 \-    In statistics, "testing" refers to a series of processes in which observed statistics are determined whether or not statistically significant. At this time, we need to be particularly careful that we use the expression "statistically significant," not just the expression "significant."
 
-[Source: https://babilusa.tistory.com/42]()
+[`Source: https://babilusa.tistory.com/42`]()
 
  
 
@@ -106,7 +106,7 @@ VAR cbmi;
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380386-167ca380-e3cd-11eb-8d3e-a9248d3fa8f5.png)
 
 **Pooled vs Satterthwaite**
 
@@ -114,7 +114,7 @@ VAR cbmi;
 
  
 
-[Source: https://www.bgsu.edu/content/dam/BGSU/college-of-arts-and-sciences/center-for-family-and-demographic-research/documents/Help-Resources-and-Tools/Statistical%20Analysis/Annotated-Output-T-Test-SAS.pdf]()
+[`Source: https://www.bgsu.edu/content/dam/BGSU/college-of-arts-and-sciences/center-for-family-and-demographic-research/documents/Help-Resources-and-Tools/Statistical%20Analysis/Annotated-Output-T-Test-SAS.pdf`]()
 
  
 
@@ -128,7 +128,7 @@ The distribution used for ANOVA is the F-distribution.
 
  
 
-![SE22016031722341470.png](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png) 
+![image](https://user-images.githubusercontent.com/78076248/125380423-21cfcf00-e3cd-11eb-9a50-e90630af77d5.png)
 
 \-    Calculating the allows you to obtain the total variation SST (Total Sum of Squares.)
 
@@ -138,7 +138,7 @@ The distribution used for ANOVA is the F-distribution.
 
  
 
-![SE22016031722360270.png](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png) 
+![image](https://user-images.githubusercontent.com/78076248/125380426-24cabf80-e3cd-11eb-9273-34d0be681f51.png)
 
 \-    Calculating the allows you to obtain Model Sum of Squares (SSMs) of variation between groups.
 
@@ -148,7 +148,7 @@ The distribution used for ANOVA is the F-distribution.
 
  
 
-![SE22016031722372070.png](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png) 
+![image](https://user-images.githubusercontent.com/78076248/125380439-27c5b000-e3cd-11eb-9bba-e02163f14774.png)
 
 \-    Calculating the allows you to obtain within-group error sum of squares (SSE).
 
@@ -166,9 +166,9 @@ The F statistic used for ANOVA can be calculated as follows:
 
  
 
-![SE22016031722403770.png](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image019.png)
+![image](https://user-images.githubusercontent.com/78076248/125380457-2dbb9100-e3cd-11eb-8138-9498bb72341d.png)
 
-![SE22016031722421770.png](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png)
+![image](https://user-images.githubusercontent.com/78076248/125380469-301deb00-e3cd-11eb-87df-6d5988951c0a.png)
 
  
 
@@ -190,6 +190,6 @@ RUN;
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125380484-36ac6280-e3cd-11eb-841f-dd5122e7a931.png)
 
  
