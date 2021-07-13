@@ -1,6 +1,3 @@
-# Simple analysis with SAS
-
-
 
 ## **< Simple regression analysis >**
 
