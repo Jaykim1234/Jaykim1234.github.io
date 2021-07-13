@@ -53,11 +53,6 @@ data tmp_data3;
 
 run;
 
-Source
-
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hsj2864&logNo=220624094325
-
-
 
 ## **SQL**
 
@@ -74,3 +69,8 @@ SELECT C.DS1_ALLER C.DS1_ALLERAG C.DS1_ASTH
 FROM C. tmp_data3;
 
 QUIT;
+
+
+Source
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hsj2864&logNo=220624094325
