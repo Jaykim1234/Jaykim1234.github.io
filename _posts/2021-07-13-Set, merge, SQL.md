@@ -13,14 +13,10 @@ data tmp_data1;
 ​    set c.ctbs0413_04_drug;
 
 run;
-
-
-
-**proc** **contents** data=tmp_data1 ; **run**;
-
  
-
 ![image](https://user-images.githubusercontent.com/78076248/125386107-affc8300-e3d6-11eb-8b7f-c3381000370e.png)
+
+< **CODE** >
 
 data tmp_data2;
 
@@ -31,6 +27,8 @@ run;
  
 
 ![image](https://user-images.githubusercontent.com/78076248/125386166-c7d40700-e3d6-11eb-8ef1-1882963d59f1.png)
+
+< **CODE** >
 
 data tmp_data3;
 
@@ -44,6 +42,8 @@ run;
 ## **MERGE**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
+
+< **CODE** >
 
 data tmp_data3;
 
@@ -62,6 +62,8 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hsj2864&logN
 ## **SQL**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386182-d02c4200-e3d6-11eb-8a48-7d9ea2b50934.png)
+
+< **CODE** >
 
 PROC SQL;
 
