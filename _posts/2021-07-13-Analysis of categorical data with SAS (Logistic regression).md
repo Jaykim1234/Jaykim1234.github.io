@@ -172,6 +172,8 @@ Before we can interpret this result, we need to know the meaning of Chi-square v
 
 
 
+
+
 **3. Chi-Square test Type**
 
 1. One-way chi-square test: target one category -> conformity test
