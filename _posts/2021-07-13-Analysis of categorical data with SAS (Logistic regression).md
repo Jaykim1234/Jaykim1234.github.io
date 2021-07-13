@@ -18,13 +18,13 @@
 
 - Cells are the frequency of observations corresponding to each level of the factor
 
-  ![image-20210713125320297](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713125320297.png)
+  ![image](https://user-images.githubusercontent.com/78076248/125400762-40de5900-e3ed-11eb-8e29-548174bac5a3.png)
 
 
 
 ## 3. Logistic regression
 
-![image-20210713132402149](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713132402149.png)
+![image](https://user-images.githubusercontent.com/78076248/125400780-46d43a00-e3ed-11eb-8fe2-0c1eb4a6de17.png)
 
 Logistic regression is a supervised learning algorithm that uses regression to predict the probability that data fall into a category from 0 to 1 and categorizes it as belonging to a category that is more likely.
 
@@ -55,11 +55,11 @@ In logistic regression, the following steps are taken to predict the probability
 
 A sigmoid function is a mathematical function with an S-shaped curve or sigmoid curve. An example of a sigmoid function is the logistic function shown in the first figure, defined by the following formula.
 
-![image-20210713133158025](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713133158025.png)
+![image](https://user-images.githubusercontent.com/78076248/125400807-4fc50b80-e3ed-11eb-8c65-19926f0de19e.png)
 
 The sigmoid function has an entire real number of real numbers, and although it is common for the return value to increase or decrease in monotony, it can also decrease in monotony. The return value (y-axis) of a sigmoid function often ranges from 0 to 1. Alternatively, it can range from -1 to 1.
 
-![image-20210713133254803](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713133254803.png)
+![image](https://user-images.githubusercontent.com/78076248/125400816-53589280-e3ed-11eb-91b0-8807f77bc37d.png)
 
 
 
@@ -75,11 +75,11 @@ Let's understand the picture below.
 
 If it's a 0.5 threshold, that's what it looks like.
 
-![image-20210713133911241](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713133911241.png)
+![image](https://user-images.githubusercontent.com/78076248/125400833-58b5dd00-e3ed-11eb-9ffd-908453606308.png)
 
 This is what happens when you adjust it to a threshold of 0.4.
 
-![image-20210713133819307](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713133819307.png)
+![image](https://user-images.githubusercontent.com/78076248/125400846-5b183700-e3ed-11eb-9e1a-bb77d7866f33.png)
 
 
 
@@ -122,7 +122,7 @@ run;
 
 
 
-Explanation of option [ PARAM=REF REF=   ]
+**Explanation of option [ PARAM=REF REF=   ]**
 
 As an extra bit of flexibility, the REF= option in the CLASS statement determines the reference level for the EFFECT and REFERENCE coding. As with the PARAM= option To program the reference level for each variable individually, use the REF = “ “ option in parentheses immediately following the variable in the CLASS statement, or use the keyword FIRST or LAST. Note that unless you use FIRST or LAST, the reference level should be placed in either single or double quotation marks, as follows: 
 
@@ -132,17 +132,17 @@ As an extra bit of flexibility, the REF= option in the CLASS statement determine
 
 **Result from the example code ** 
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125400916-73885180-e3ed-11eb-89e9-62344400febb.png)
 
  
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+![image](https://user-images.githubusercontent.com/78076248/125400925-76834200-e3ed-11eb-9ad6-190602f8ad2d.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![image](https://user-images.githubusercontent.com/78076248/125400935-797e3280-e3ed-11eb-8f2b-82736f843ef7.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![image](https://user-images.githubusercontent.com/78076248/125400948-7c792300-e3ed-11eb-8539-01a8f5b4dcfe.png)
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![image](https://user-images.githubusercontent.com/78076248/125400967-826f0400-e3ed-11eb-83d0-d3f704db55de.png)
 
 
 
@@ -160,7 +160,7 @@ Before we can interpret this result, we need to know the meaning of Chi-square v
 
 **1. Fomular**
 
-![image-20210713141351294](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713141351294.png)
+![image](https://user-images.githubusercontent.com/78076248/125400979-8733b800-e3ed-11eb-9c77-5a7b1986bdb9.png)
 
 
 
