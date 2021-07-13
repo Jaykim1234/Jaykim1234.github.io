@@ -1,6 +1,6 @@
  
 
-## **Set**
+## **1. Set**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386100-ac68fc00-e3d6-11eb-8f76-cdb676efb109.png)
 
@@ -39,7 +39,7 @@ data tmp_data3;
 run;
 
 
-## **MERGE**
+## **2. MERGE**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
 
@@ -54,7 +54,7 @@ data tmp_data3;
 run;
 
 
-## **SQL**
+## **3. SQL**
 
 ![image](https://user-images.githubusercontent.com/78076248/125386182-d02c4200-e3d6-11eb-8a48-7d9ea2b50934.png)
 
