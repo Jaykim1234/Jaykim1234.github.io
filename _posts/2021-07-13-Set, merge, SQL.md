@@ -38,10 +38,11 @@ data tmp_data3;
 
 run;
 
-![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
-
 
 ## **MERGE**
+
+![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
+
 data tmp_data3;
 
 ​    MERGE c.ctbs0413_02_disease c.ctbs0413_04_drug;
