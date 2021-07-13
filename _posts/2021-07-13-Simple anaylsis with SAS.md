@@ -1,5 +1,5 @@
 
-## **< Simple regression analysis >**
+## **1. Simple regression analysis**
 
 ![image](https://user-images.githubusercontent.com/78076248/125380191-c43b8280-e3cc-11eb-9f73-03c398423804.png)
 
@@ -57,7 +57,7 @@
 
  
 
-## **< Multiple linear regression analysis >**
+## **2. Multiple linear regression analysis**
 
  
 
@@ -67,7 +67,7 @@
 
 
 
-## **< Testing differences between two group means >**
+## **3. Testing differences between two group means**
 
  
 
@@ -100,7 +100,7 @@ VAR cbmi;
  
  
 
-## **< ANOVA >**
+## **4. ANOVA**
 
  
 
