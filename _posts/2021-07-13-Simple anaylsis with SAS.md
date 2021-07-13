@@ -175,6 +175,8 @@ RUN;
 ![image](https://user-images.githubusercontent.com/78076248/125380484-36ac6280-e3cd-11eb-841f-dd5122e7a931.png)
 
 Source 
+
+
 https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=terms-f-value
 https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm
 https://www.investopedia.com/ask/answers/012615/whats-difference-between-rsquared-and-adjusted-rsquared.asp
