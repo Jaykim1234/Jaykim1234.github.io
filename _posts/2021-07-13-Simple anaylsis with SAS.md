@@ -23,7 +23,7 @@
 - The F distribution is a theoretical distribution. There are many of these distributions, and each of them differs based on the degrees of freedom.
 - The F value and the degrees of freedom of the sources of variance are used to determine the probability of the F value. The probability is the significance value for the test.
 
-[`Source : https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=terms-f-value`]()
+
 
 **R-squared**
 
@@ -35,17 +35,12 @@
 
 - Adjusted R-squared can provide a ‘more precise’ view of that correlation by also taking into account how many independent variables are added to a particular model. This is done because such additions of independent variables usually increase the reliability of that model—meaning, for investors, the correlation with the index.
 
-[`Source : https://www.investopedia.com/ask/answers/012615/whats-difference-between-rsquared-and-adjusted-rsquared.asp`]()
+
 
 **MSE**
 
 - The MSE either assesses the quality of a **predictor** (i.e., a function mapping arbitrary inputs to a sample of values of some [random variable](https://en.wikipedia.org/wiki/Random_variable)), or of an [**estimator**](https://en.wikipedia.org/wiki/Estimator) (i.e., a [mathematical function](https://en.wikipedia.org/wiki/Mathematical_function) mapping a [sample](https://en.wikipedia.org/wiki/Sample_(statistics)) of data to an estimate of a [parameter](https://en.wikipedia.org/wiki/Statistical_parameter) of the [population](https://en.wikipedia.org/wiki/Statistical_population) from which the data is sampled). MSE measures the mean square difference between the estimated value and the actual value.
 
-[`Source : https://en.wikipedia.org/wiki/Mean_squared_error#Definition_and_basic_properties`]()
-
- 
-
- 
 
 ![image](https://user-images.githubusercontent.com/78076248/125380314-fb119880-e3cc-11eb-8a67-092741ddf5ea.png)
 
@@ -56,9 +51,6 @@
 - Confidence limits are expressed in terms of a confidence coefficient. Although the choice of confidence coefficient is somewhat arbitrary, in practice 90 %, 95 %, and 99 % intervals are often used, with 95 % being the most commonly used.
 
 - As a technical note, a 95 % confidence interval does not mean that there is a 95 % probability that the interval contains the true mean. The interval computed from a given sample either contains the true mean or it does not. Instead, the level of confidence is associated with the method of calculating the interval. The confidence coefficient is simply the proportion of samples of a given size that may be expected to contain the true mean. That is, for a 95 % confidence interval, if many samples are collected and the confidence interval computed, in the long run about 95 % of these intervals would contain the true mean.
-
-[`Source: https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm`]()
-
  
 
 ![image](https://user-images.githubusercontent.com/78076248/125380322-006ee300-e3cd-11eb-8c35-375db6a261b6.png)
@@ -73,11 +65,7 @@
 
 ![image](https://user-images.githubusercontent.com/78076248/125380340-0795f100-e3cd-11eb-9b18-b8e424b9c980.png)
 
- 
 
- 
-
- 
 
 ## **< Testing differences between two group means >**
 
@@ -89,7 +77,7 @@
 
 \-    In statistics, "testing" refers to a series of processes in which observed statistics are determined whether or not statistically significant. At this time, we need to be particularly careful that we use the expression "statistically significant," not just the expression "significant."
 
-[`Source: https://babilusa.tistory.com/42`]()
+
 
  
 
@@ -110,9 +98,6 @@ VAR cbmi;
 \-    The main difference is that the **Satterthwaite** approximation does not assume equal variances, whereas the **pooled** method does. In other words, you can always use the **Satterthwaite** method and be correct, but you can only use the **pooled** method in very specific (and rare) circumstances.
 
  
-
-[`Source: https://www.bgsu.edu/content/dam/BGSU/college-of-arts-and-sciences/center-for-family-and-demographic-research/documents/Help-Resources-and-Tools/Statistical%20Analysis/Annotated-Output-T-Test-SAS.pdf`]()
-
  
 
 ## **< ANOVA >**
@@ -189,4 +174,10 @@ RUN;
 
 ![image](https://user-images.githubusercontent.com/78076248/125380484-36ac6280-e3cd-11eb-841f-dd5122e7a931.png)
 
- 
+Source 
+https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=terms-f-value
+https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm
+https://www.investopedia.com/ask/answers/012615/whats-difference-between-rsquared-and-adjusted-rsquared.asp
+https://en.wikipedia.org/wiki/Mean_squared_error#Definition_and_basic_properties
+https://babilusa.tistory.com/42
+https://www.bgsu.edu/content/dam/BGSU/college-of-arts-and-sciences/center-for-family-and-demographic-research/documents/Help-Resources-and-Tools/Statistical%20Analysis/Annotated-Output-T-Test-SAS.pdf
