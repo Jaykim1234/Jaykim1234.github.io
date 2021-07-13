@@ -2,7 +2,7 @@
 
 ## **Set**
 
-![image-20210713122917920](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713122917920.png)
+![image](https://user-images.githubusercontent.com/78076248/125386100-ac68fc00-e3d6-11eb-8f76-cdb676efb109.png)
 
 **data** tmp_data1;
 
@@ -18,7 +18,7 @@
 
  
 
-![image-20210713122828899](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713122828899.png)
+![image](https://user-images.githubusercontent.com/78076248/125386107-affc8300-e3d6-11eb-8b7f-c3381000370e.png)
 
 **data** tmp_data2;
 
@@ -28,9 +28,7 @@
 
  
 
-**proc** **contents** data=tmp_data2 ; **run**;
-
-![image-20210713122838956](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713122838956.png)
+![image](https://user-images.githubusercontent.com/78076248/125386166-c7d40700-e3d6-11eb-8ef1-1882963d59f1.png)
 
 **data** tmp_data3;
 
@@ -40,7 +38,7 @@
 
 run;
 
-![image-20210713122848568](C:\Users\USER01\AppData\Roaming\Typora\typora-user-images\image-20210713122848568.png)
+![image](https://user-images.githubusercontent.com/78076248/125386154-c276bc80-e3d6-11eb-955c-c7be88e8c9cc.png)
 
 **data** tmp_data3;
 
@@ -58,7 +56,7 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hsj2864&logN
 
 ## SQL
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125386182-d02c4200-e3d6-11eb-8a48-7d9ea2b50934.png)
 
 **PROC** **SQL**;
 
