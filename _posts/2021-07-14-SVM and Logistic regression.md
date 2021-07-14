@@ -1,4 +1,3 @@
-# **SVM and Logistic regression**
 
 ![image](https://user-images.githubusercontent.com/78076248/125557975-eb0d6878-6138-4c20-8eda-04ceb0d31c60.png)
 
