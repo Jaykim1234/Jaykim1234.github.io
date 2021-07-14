@@ -56,5 +56,4 @@ The numerator is the sum of the scores of movies (neighbors) divided by the dist
  
 
 http://hleecaster.com/ml-knn-regression-example/
-
 https://ko.wikipedia.org/wiki/K-%EC%B5%9C%EA%B7%BC%EC%A0%91_%EC%9D%B4%EC%9B%83_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
