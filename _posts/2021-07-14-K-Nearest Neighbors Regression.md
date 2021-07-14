@@ -1,10 +1,10 @@
-## **K-Nearest Neighbors Regression**
+# **K-Nearest Neighbors Regression**
 
-![img](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![image](https://user-images.githubusercontent.com/78076248/125558420-fa4a6bea-87d3-4fd6-80e3-daf12c5ac88c.png)
 
 
 
-**1. Principle of K-Nearest Neighbors Regression**
+## 1. Principle of K-Nearest Neighbors Regression
 
 
 
@@ -15,7 +15,7 @@ When new movie data comes in, you will find the nearest k neighbors through the 
 
  
 
-**2. Understanding Weighted Regression**
+## 2. Understanding Weighted Regression
 
 First of all, the principle is easy. However, we can also apply the average method more intelligently.
 
@@ -32,13 +32,13 @@ Why don't we find a weighted average based on how close each neighbor is, rather
  However, movie X is the closest to movie C (because distance is the closest), so the rating of movie C is more important when calculating the average.
  In the end, the weighted average is 7.9. (The expression is as follows.)
 
-![http://hleecaster.com/wp-content/uploads/2019/12/weighted_average.jpg](file:///C:/Users/USER01/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![image](https://user-images.githubusercontent.com/78076248/125558431-cb92542f-7b91-4659-a0eb-72c288d350b4.png)
 
 The numerator is the sum of the scores of movies (neighbors) divided by the distance from X, and the denominator is the sum of the distances from X.
 
  
 
-**3. Selecting Parameters**
+## 3. Selecting Parameters
 
 
  Choosing the best k-value is data-dependent. In general, the larger the k-value, the less the effect of noise in the classification. Good k can be chosen with a variety of heuristic. A special case (i.e., when k = 1) in which an item is predicted to be an item of the nearest training sample is called a nearest neighbor algorithm.
