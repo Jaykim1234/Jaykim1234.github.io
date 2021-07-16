@@ -14,7 +14,7 @@
 
 ​    
 
-  ![그림입니다.  원본 그림의 이름: CLP00013f8441cb.bmp  원본 그림의 크기: 가로 661pixel, 세로 427pixel](file:///C:\Users\USER01\AppData\Local\Temp\Hnc\BinData\EMB000065101819.bmp)  
+![image](https://user-images.githubusercontent.com/78076248/125890421-c228c48b-f3df-40b0-bb51-3a01f36260e7.png)
 
 · 생존분석에서는 관찰의 시작과 종료 시점은 중요하지 않음
 
@@ -22,8 +22,7 @@
 
 ​      분석에 이용됨
 
-  ![그림입니다.  원본 그림의 이름: CLP00013f840001.bmp  원본 그림의 크기: 가로 616pixel, 세로 472pixel](file:///C:\Users\USER01\AppData\Local\Temp\Hnc\BinData\EMB00006510181a.bmp)  
-
+![image](https://user-images.githubusercontent.com/78076248/125890429-0154c921-1d36-4e27-99fc-2b2cf3a56ff9.png)
 ​    
 
 · Right censoring : 연구 종료 전 기타 이유로 사망하거나 연구가 만료된 경우
