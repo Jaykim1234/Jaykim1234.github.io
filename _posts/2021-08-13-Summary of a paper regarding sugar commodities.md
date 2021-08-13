@@ -1,4 +1,4 @@
-# Note from a reading paper 
+### Note from a reading paper 
 
  
 
