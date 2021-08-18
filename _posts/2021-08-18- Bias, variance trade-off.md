@@ -48,11 +48,13 @@
 
 \-   The best model is where the error is reduced
 
-![img](file:///C:/Users/user/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![image](https://user-images.githubusercontent.com/78076248/129868985-2fd63c24-7bff-4de3-8255-911ee93d0493.png)
+
 
 Figure 1Bias-variance tradeoff cheat sheet — Image by author
 
-![img](file:///C:/Users/user/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![image](https://user-images.githubusercontent.com/78076248/129868997-315d17c9-a084-460e-b040-9a0677550778.png)
+
 
 Figure 2 Bias-variance tradeoff cheat sheet — Image by author
 
@@ -81,5 +83,10 @@ Figure 2 Bias-variance tradeoff cheat sheet — Image by author
 With a consideration of the trade-off between bias and variance, selections for high bias or high variance could be done. When the dataset is very large, high variance can be considered. Since the dataset is large, there is less chances of a model to use very different datasets. 
 
 When a dataset is very small, on the other hand, variance should be low. Because a given dataset cannot represent the whole, model should not be overfitting. 
+
+
+Reference
+
+https://medium.com/swlh/cheat-sheets-for-machine-learning-interview-topics-51c2bc2bab4f
 
  
