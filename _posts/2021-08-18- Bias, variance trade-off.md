@@ -85,7 +85,7 @@ With a consideration of the trade-off between bias and variance, selections for 
 When a dataset is very small, on the other hand, variance should be low. Because a given dataset cannot represent the whole, model should not be overfitting. 
 
 
-Reference
+### Reference
 
 https://medium.com/swlh/cheat-sheets-for-machine-learning-interview-topics-51c2bc2bab4f
 
