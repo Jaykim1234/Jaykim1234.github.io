@@ -62,7 +62,6 @@ The sigmoid function has an entire real number of real numbers, and although it 
 ![image](https://user-images.githubusercontent.com/78076248/125400816-53589280-e3ed-11eb-91b0-8807f77bc37d.png)
 
 
-
 ### Classification Threshold
 
 The resulting value of the logistic regression algorithm is 'classification probability', so if this probability is obtained above a certain level, the sample can be determined whether it belongs to the class or not.
