@@ -15,7 +15,7 @@ convolutional layer 다음에 convolutional layer가 온 점이 특이함
 AlexNet의 hyper-parameter를 수정하여 성능 개선
 중간에 있는 convolutional layer의 크기를 늘렸다.
 
-
+![](2021-08-23-13-59-40.png)
 
 ### VGCNet  - 2014
 
@@ -23,16 +23,17 @@ AlexNet의 hyper-parameter를 수정하여 성능 개선
 
 단점: 메모리 수와 파라미터의 수가 크다
 
+![](2021-08-23-14-00-55.png)
+
 ### ResNet  - 2015
 
 기존 DNN(Deep Neural Network) 보다 layer 수가 훨씬 많은 
 Deeper NN에 대한 학습(training)을 쉽게 할 수 있게 해주는 residual framework 개념을 도입
 
-
-### Inception - 2014
-
-
-
+![](2021-08-23-14-01-59.png)
 
 ### Reference
 https://blog.naver.com/laonple/220643128255
+https://medium.com/coinmonks/paper-review-of-zfnet-the-winner-of-ilsvlc-2013-image-classification-d1a5a0c45103
+https://www.datamaker.io/posts/35/
+https://towardsdatascience.com/review-resnet-winner-of-ilsvrc-2015-image-classification-localization-detection-e39402bfa5d8
