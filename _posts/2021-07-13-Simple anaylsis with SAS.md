@@ -5,11 +5,11 @@ title:  "SAS- Simple regression analysis"
 categories:
   - SAS-Statistics
 tags:
-  - SET
-  - MERGE
-  - SAS-SQL
+  - DF
+  - F values
+  - R-squared
 ---
-excerpt: "SAS: SET, MERGE, SQL"
+
 
 ## **1. Simple regression analysis**
 
