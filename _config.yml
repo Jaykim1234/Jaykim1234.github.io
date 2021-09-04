@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jay's Blog"
 title_separator          : "-"
 subtitle                 : 'version 1.0' # site tagline that appears below site title in masthead
-name                     : "김진현(Jay Jinhyun Kim)"
+name                     : "김진현 (Jay Jinhyun Kim)"
 description              : "An amazing website."
 url                      : "https://Jaykim1234.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "김진현(Jay Jinhyun Kim)"
+  name             : "김진현 (Jay Jinhyun Kim)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "KOR, NL"
