@@ -1,3 +1,13 @@
+---
+title:  "KNN"
+
+categories:
+  - Machine learning
+tags:
+  - KNN-principle
+  - KNN-Weighted Regression
+  - KNN-Selecting Parameters
+---
 
 
 ![image](https://user-images.githubusercontent.com/78076248/125558420-fa4a6bea-87d3-4fd6-80e3-daf12c5ac88c.png)
