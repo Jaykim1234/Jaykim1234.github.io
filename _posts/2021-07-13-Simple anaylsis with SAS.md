@@ -1,6 +1,6 @@
 ---
 title:  "SAS- Simple regression analysis"
-<!-- excerpt: "SAS: SET, MERGE, SQL" -->
+
 
 categories:
   - SAS-Statistics
@@ -9,7 +9,7 @@ tags:
   - MERGE
   - SAS-SQL
 ---
-
+excerpt: "SAS: SET, MERGE, SQL"
 
 ## **1. Simple regression analysis**
 
