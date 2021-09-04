@@ -1,4 +1,14 @@
- 
+---
+title:  "SAS 기본 코드"
+excerpt: "SET, MERGE, SQL"
+
+categories:
+  - SAS
+tags:
+  - SET
+  - MERGE
+  - SQL
+---
 
 ## **1. Set**
 
