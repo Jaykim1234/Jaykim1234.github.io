@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Jay's Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jay Kim"
+subtitle                 : 'version 1.0' # site tagline that appears below site title in masthead
+name                     : "김진현(Jay Jinhyun Kim)"
 description              : "An amazing website."
 url                      : "https://Jaykim1234.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jay Kim"
+  name             : "김진현(Jay Jinhyun Kim)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "KOR, NL"
+  email            : 'kjin5065@gmail.com'
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -215,7 +215,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -276,6 +276,7 @@ compress_html:
 
 # Defaults
 defaults:
+
   # _posts
   - scope:
       path: ""
@@ -287,3 +288,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true 
