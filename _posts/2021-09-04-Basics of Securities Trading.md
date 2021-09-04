@@ -9,7 +9,7 @@ tags:
   - SQL
 ---
 
-**Overview**
+## **ㅁ Overview**
 
 - Playeres in securities markets
 
@@ -17,7 +17,7 @@ tags:
 
 - Trading mechanics in limit order markets
 
-**Playeres in securities markets**
+## **ㅁ Playeres in securities markets**
 
 - “Buy” side: parties who **demand** trading services
    
