@@ -9,6 +9,18 @@ tags:
   - SQL
 ---
 
+## **ㅁ Key Concepts**
+
+- Brokers 와 Dealers의 비교
+
+- Limit order 와 market orders
+
+- Limit order market에서 거래하는 메커니즘
+
+- **Limit order**는 **make** liquidity
+
+- **Market orders**는 **take** liquidity 
+
 ## **ㅁ Overview**
 
 - Playeres in securities markets
@@ -64,10 +76,64 @@ other parties for execution (and being paid for it)**
         - stocks and ETFs, Options, Mutual Funds 를 다룬다.
     - 브로커가 제공하는 이점
       - ![](2021-09-04-21-46-47.png)
+      - price improvement
+      - How:
       - **이거 정확히 안읽어서 이해 x**
- 
+       
         
 - brokers-dealers  
     - do both (**무엇을 다 한다는 것?**)
     - 내 생각 **확인 필요**
       - 자신이 거래, 고객을 위해서 거래
+
+- Broker vs Dealer의 차이?
+  - ?????
+
+
+- **Take** vs **Make**
+  - Market order
+    - 현재 가능한 가격에 거래하도록 주문하는 것
+    -  immediate execution vs. price uncertainty
+       - 무슨말??
+       - 즉시 거래가 가능한 대신에 내가 어떤 가격에 사는지는 모른다 이말??
+  - Limit orders:
+    - instruction to trade at best price available provided
+that it is no worse than the specified limit price
+    - 지정된 가격에서 거래가 가능하게 되는 주문
+    - 이점: 더 나은 가격에 거래가 가능할 수 있음
+    - 단점
+      - 주문이 체결되지 않을 수 있다. 주문이 느리게 체결되서 비용 발생 (Cost of delay)
+      - adverse selection / picking-off risk: 
+        - smarter & faster traders may trade against you precisely when you would have preferred to cancel or revise your order
+        - 남들보다 잘해야 한다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
