@@ -108,3 +108,63 @@ tags:
     - Maximization problem
       - ![](2021-09-06-14-43-23.png)
       - q = 1 **always**
+
+#  Evidence on Q Theory
+
+확인 할 것
+1. 투자와 Q는 양의 상관 관계
+2. Q가 유일한 변수 (다른 변수는 영향 ㄴㄴ)
+
+## 연구 결과 밝혀진 문제들 Lack of empirical evidence
+
+1. Q가 투자의 변화를 설명을 잘 못한다.(R^2가 값이 낮음)
+2. **Adjustment costs** 가 **클 때**만 Regression estimates of Q가 영향이 있는 것으로 나타났다.
+3. Q뿐만 아니라 **많은 다른 변수**들이 *투자와 연관성이 있는 것*으로 들어남
+  
+요약하면 Q는 coporate investment에 있어서 중요하지만 다른 factor들이 더 중요하다.
+
+## Hypothesis 1: Mesurement error in Q
+
+- *Measurement error could explain* **lack of empirical evidence**
+- **측정 오류**가 Q 이론이 실제적으로 적용이 안되는 부분을 **설명**할 수 있음
+    - OLS regression에서 measurement error가 있으면 coefficient 가 거의 0에 가까워 진다.(Q 변수가 설명력이 없어진다는 뜻, 그리고 R^2 도 줄어든다.)
+    - Bias can also lead to significant coefficients on other variables(이거 이해 x)
+- **Q는 measurment error가 있다.** 왜 measurement error가 있는지에 대한 이유로는
+  - market value of equity가 투자기회(investment opportunity) 말고도 다양한 요인들에 의해서 영향을 받기 때문이다.
+  - Q는 **debt**의 **시장가격**에 기초해야 하는데 book value가 종종 사용된다.
+  - book value of assets 는 과거의 가격에 기초했는데 이는 현재의 replacement costs를 반영하지 못할 수 있다.
+  
+- *Measurement error를 고려한 새로운 실험 결과*
+  - Erickson and Whited (2000) employ advanced statistical thechinique to remove measurement error from Q
+    - 결과
+      - R^2 more than doubles after accounting for measurement error
+      - Coefficient estimates on Q ar esubstantially larger than simple OLS
+      - Estimates of other variables( e.g cashflosw) small and insignificant
+      - ![](2021-09-06-23-31-06.png)
+  - Peters and Taylor (2017) find that Q work much better when intangible assets are included
+    - ![](2021-09-07-00-06-54.png)  
+- 문제
+  ![](2021-09-07-00-05-37.png) 
+
+## Hypothesis 2: Financial constraints
+
+
+- Firms must invests C_0 up front, and receive cashflows in future
+  - But where doese initial cash C_0 come from?
+  - **이게 왜 문제인거?? cash랑 어떻게 연관이 되는거지? marcap?**
+
+    - Young firms start with almost no cash, and are also not profitable
+      - Main way to fund investment is raising external financing
+      - mature firms typically hold cash and are profitable, but may face  very large upfront investment costs.
+  - If a firm has difficulty raising external financing, it may pass up investment opps **even when Q is high**
+- 정리하면 Starting firm한테는 Q가 높아도 financing 받는거 아니면 돈 벌기가 힘들기 때문에 Q이론이 적용되지 않을 수 있다는 말이다.
+  - 그렇다면 왜 financing이 어려울까? 왜 financing이 costly할까?
+    - Pecking order theory predicts that investment is cheaper to finance using internal funds(i.e.,cash) than external/ 외부에서 돈 받는 것 보다 내부 회사 돈 쓰는게 더 싸다
+      - Internal financing이 더 싼 이유
+        - **Asymmetric info**
+          - Firm's managers know its condition better than external investors
+          - 회사의 매니저는 외부투자자보다 더 많은 정보를 가지고 있음
+            - 회사가 external financing 즉 주식을 팔아서 자금을 충당하려고 한다면 이는 외부 투자자들에 있어서 회사의 미래가 어둡다고 생각하게 할 수 있다.
+            - 회사가 주식을 매각하지 않고 cash를 사용하면 외부 투자자들은 회사가 안정적이다라고 생각할 수 있다.
+          - 그래서: Firms with volatile cashflows should build up internal funds, to ensure sufficient liquidity during bad years.
+            - 회사는 안정적인 현금 흐름을 확보하는 것이 중요하다. 
