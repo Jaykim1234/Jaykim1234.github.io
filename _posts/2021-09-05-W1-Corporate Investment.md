@@ -83,4 +83,28 @@ tags:
 ## Firm's maximization problem
 
 - Firm choose I_0 to maximize:
-  -   ![](2021-09-05-19-01-34.png)
+  -   ![](2021-09-06-13-24-36.png)
+      -   Q>1 보다 커야만 투자를 한다.
+
+- 문제
+  - ![](2021-09-06-13-41-23.png)
+    - 독립변수는 market cap+ debt이다.
+    - 종속변수는 k_0에 영향을 미치는 요인이다.
+
+
+## A few technical details
+  - In Maximization problem
+    - q = *(∂V_1)/(∂K_1)* <<< why?? : ∂V_1 refers to changes of market value
+      - Interpretation can be 
+        - ' How much market values changes with the one extra unit of capital'
+      - This makes investment depends on the **marginal** profits from one extra unit of captital.
+      - q is measured as average value of capital
+        - Total market value/total capital cost
+      - Hayashi Theorem
+        - under same plausible condition
+          - average q = marginal q
+  - When there is **no adjustment costs**
+    - ![](2021-09-06-14-42-22.png)
+    - Maximization problem
+      - ![](2021-09-06-14-43-23.png)
+      - q = 1 **always**
