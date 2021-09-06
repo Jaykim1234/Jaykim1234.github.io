@@ -1,12 +1,10 @@
 ---
-title:  "Corporate Investment"
+title:  "ACF-W1-01-Corporate Investment"
 
 categories:
   - UvA_Advanced Corporate Investment
 tags:
-  - Identifying Investmet Opportunity
-  - Intro to Q Theory
-  - SQL
+  - ACF-W1-01-Identifying Investmet Opportunity
 ---
 
 
@@ -28,7 +26,8 @@ tags:
         - replacement cost: price firm would have to pay on market for capital
         - **Market-book ratio**가 이것 과 비슷하고 가끔씩 대체해서 사용 되기도 한다.
       - **해석하는 방법**
-        - Q>1
+        - Q>1 
+          - Has **positive NPV opportunity**
           - Firm generate more value using capital than other investors or firms would
           - 다른 회사들 보다 같은 capital을 사용했을 때 더 많은 자본 창출
           - 기업은 적은 비용을 들여 주식 시장에서 높은 가치를 창출 할 수 있다는 뜻. 
@@ -65,7 +64,23 @@ tags:
   
   - denumerator(분모)는 내 생각에는 회계적 장부에서 나타나는 가치를 의미하는 것 같다. 브랜드가 무형의 자산이기 때문에 회계적 장부에 나올수 없기에(?) 분모에는 변화가 없다.
   
-  - 정리하면 분자는 올라가고 분모는 그대로 이다.   
-
+  - 정리하면 분자는 올라가고 분모는 그대로 이다.  
 
 # Intro to Q Theory
+## Brief overview of Q theory
+
+- K: capital
+  - Captial depreciates at annual rate δ
+- δ: discount rate 
+- I: investment amount (Spend I on new assets)
+- Firm's value
+      -  v_0=αk_1∕(1+r)
+      -  k_1 = I_0 + (1-δ)K_0
+- (I_0/k_0)^2 = Capital adjustment cost 
+    - Ex: Operating more machines requires increasing amount of attention from mangement.
+      - capital의 양이 많아지면 많아질 수록 or 회사 사이즈가 커질 수록 관리비가 기하 급수적(?)으로 늘어난다.
+
+## Firm's maximization problem
+
+- Firm choose I_0 to maximize:
+  -   ![](2021-09-05-19-01-34.png)
