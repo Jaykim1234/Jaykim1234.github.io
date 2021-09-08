@@ -168,3 +168,76 @@ tags:
             - 회사가 주식을 매각하지 않고 cash를 사용하면 외부 투자자들은 회사가 안정적이다라고 생각할 수 있다.
           - 그래서: Firms with volatile cashflows should build up internal funds, to ensure sufficient liquidity during bad years.
             - 회사는 안정적인 현금 흐름을 확보하는 것이 중요하다. 
+
+# Example of Precautionary Savings
+
+-Simple example
+  - ![](2021-09-08-21-13-19.png)
+    - 조건 
+      - 이번 년도에는 회사는 C_G를 받은 상태
+      - 투자는 같은데 R_1> R_2로 옵션 1이 수익률이 더 높다.
+      - C_G : cashflow in good states (투자 후 회수한 돈)
+      - C_B : cashflow in bad states (C_B< *I* 투자한 것 보다 회수 한 돈이 적음)
+      - C_S : cash saved
+      - *I*   : 쓴 돈/투자한 돈
+      - R_1 : Year 1의 이익
+      - R_2 : Year 2의 이익
+      - δ   : C_G(=I) 를 받을 확률
+      - 1-δ : C_B(< I) 를 받을 확률
+    - 문제: 현금을 모두 투자? or Save some?
+  - ![](2021-09-08-21-32-33.png)
+    - ![](2021-09-08-21-32-57.png)
+      - C_G-2I+R1+R2
+        - 좋은 상태에서 얻은 현금- 두 개의 프로잭트에 쓴 돈(2I) + 리턴(이게 순 수익) + δ(R_1+ R_2 + C_g - 2I) + (1-δ)C_B [Return이 없음] 
+    - ![](2021-09-08-22-21-34.png) 
+      - C_S = C_G - I
+        - 내가 좋은 상황에서 투자를 한다면 얻을 수 있는 수익 
+        - C_S   
+  - 어떤걸 할지 판단
+    - ![](2021-09-08-22-03-15.png) 
+
+# Evidence on Financial contraints
+- ![](2021-09-08-23-23-11.png)
+
+- Fazzari, Hubbard, and Petersen (1988) provide early evidence that **financial constraints affect investment** 
+
+- Split firms into three groups based on dividend payouts
+  - Firms that **pay dividends instead of saving cash** are likely **not financially constrained**
+  - Test relationship between **annual cashflows and investment across each subset of firms**
+
+- Data shows that effect of cashflows is strongest for most constrained firms, weakest for least constrained
+  - Indicates that investment depends on availability of internal funds
+
+- Very important one!!!
+  - ![](2021-09-08-23-30-31.png)
+  - Interpretation
+    - CF/K is largest and most significant at class1 with value of 0.461, and it gradually decreases at other classes
+    - Same thing with R squred
+    - So. Cash flow also matters!!!
+
+## Kaplan and Zingales (1997) critique 
+
+- Empirically **refute** FHP (1988)’s results, showing that financial constraints may not affect investment-cashflow sensitivity
+
+- Re-classify firms based on discussion of constraints in 10-K filings
+  - many “constrained” firms mention no problems raising funds
+
+- Find cashflows associated with investment across all firms, regardless of financial constraints
+  - indeed, association strongest for least constrained firms
+
+- Additional problem with FHP (1988): Cashflows can be correlated with investment opps, thus biasing regression estimates
+
+## Constraints and precautionary savings
+
+- Another issue with FHP (1988): If firms engage in *precautionary savings*, then *estimated effect of cashflows could be **negative***!
+  - reason is that constrained firms *invest less* when cashflows high, to fund more investment when cashflows low
+  - cashflows depend on both current and future investment opps
+
+- Almeida et al. (2004) develop new theory showing constrained firms should save more out of annual cashflows
+  - “Cashflow sensitivity of cash”: Test relationship between cash holdings and cashflows
+  - association likely unbiased by error in measuring investment opps
+
+## Almeida et al. (2004) main result
+
+- ![](2021-09-08-23-45-16.png)
+  - Increase in cash flow lead to increase in cash savings 
