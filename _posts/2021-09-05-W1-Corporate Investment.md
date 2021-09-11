@@ -1,14 +1,17 @@
 ---
-title:  "ACF-W1-01-Corporate Investment"
+title:  "ACF-W1-01-Planning and Funding Corporate Investment"
 
 categories:
-  - UvA_Advanced Corporate Investment
+  - Advanced Corporate Investment
 tags:
+  - ACF-W1-01-Identifying Investmet Opportunity
   - ACF-W1-01-Identifying Investmet Opportunity
 ---
 
 
 # Identifying Investmet Opportunity
+
+여기서는 회사가 새로운 투자를 할지 말지를 무엇을 보고 결정하는 지 에 대해서 알아보겠다. 가장 대표적으로 사용되는 것은 Tobin's Q 이다. 이 지표는 회사의 운영 상태를 나타낼 수 있는 지표이다.
 
 ## How do firms make investment decisions?
   - Common rule of thumb: NPV>0 인것 고려
@@ -25,7 +28,7 @@ tags:
       - 주식시장에서 평가된 기업의 가치를 기업의 총실물자본의 구입가격으로 나눈 값
         - replacement cost: price firm would have to pay on market for capital
         - **Market-book ratio**가 이것 과 비슷하고 가끔씩 대체해서 사용 되기도 한다.
-      - **해석하는 방법**
+      - **Tobin's Q 해석하는 방법**
         - Q>1 
           - Has **positive NPV opportunity**
           - Firm generate more value using capital than other investors or firms would
@@ -41,7 +44,7 @@ tags:
           - 자본 활용을 너무 못한 다는 뜻
           - 기업은 감소하는 자본을 대체하지 않을 것이다.
         - Q=1
-          - 기업은 최적자본량을 달성한 것이다.
+          - 기업은 **최적자본량을 달성**한 것이다.
         - 여기서 **분자(numerator) = firm's market cap + debt**
         - **분자(numerator) = 시장 총액의 가격+ 부채**
           - 여기서 **debt**도 **반드시 시장의 가치를 사용**해야 하는데 종종 book value로 사용 된다.
@@ -56,7 +59,8 @@ tags:
 
 **정답 1**
     - 여기서 궁금한 것은 NPV의 상승이 market cap을 증가시키는 것인가 이다.
-    - 물론 npv의 상승의 주가의 상승에 기여를 해서 market cap을 상승시킬 수 있지만 이는 간접적인 영향으로 인해서 증가한 것이다. 그렇기 때문에 1번이 왜 맞는지에 대해서 확신이 없다.  
+      - 물론 npv의 상승의 주가의 상승에 기여를 해서 market cap을 상승시킬 수 있지만 이는 간접적인 영향으로 인해서 증가한 것이다. 그렇기 때문에 1번이 왜 맞는지에 대해서 확신이 없다.  
+    - Market cap =  price of stock x the number of stock
 
 
 ![](2021-09-05-17-53-17.png)</p>
@@ -67,6 +71,9 @@ tags:
   - 정리하면 분자는 올라가고 분모는 그대로 이다.  
 
 # Intro to Q Theory
+
+앞의 부분에서는 Tobin's의 Q 가 어떻게 사용되는지 간략히 알아보았다. 이번에는 Tobin's Q가 어떻게 구성이 되는지 간략히 알아보겠다.
+
 ## Brief overview of Q theory
 
 - K: capital
@@ -88,7 +95,7 @@ tags:
 
 - 문제
   - ![](2021-09-06-13-41-23.png)
-    - 독립변수는 market cap+ debt이다.
+    - 독립변수는 market cap + debt이다.
     - 종속변수는 k_0에 영향을 미치는 요인이다.
 
 
@@ -111,7 +118,8 @@ tags:
 
 #  Evidence on Q Theory
 
-확인 할 것
+Q Theory가 실제로 적용이 되는지 확인 할 것
+
 1. 투자와 Q는 양의 상관 관계
 2. Q가 유일한 변수 (다른 변수는 영향 ㄴㄴ)
 
@@ -138,8 +146,8 @@ tags:
   - Erickson and Whited (2000) employ advanced statistical thechinique to remove measurement error from Q
     - 결과
       - R^2 more than doubles after accounting for measurement error
-      - Coefficient estimates on Q ar esubstantially larger than simple OLS
-      - Estimates of other variables( e.g cashflosw) small and insignificant
+      - Coefficient estimates on Q are substantially larger than simple OLS
+      - Estimates of other variables (e.g cashflosw) small and insignificant
       - ![](2021-09-06-23-31-06.png)
   - Peters and Taylor (2017) find that Q work much better when intangible assets are included
     - ![](2021-09-07-00-06-54.png)  
@@ -152,6 +160,7 @@ tags:
 - Firms must invests C_0 up front, and receive cashflows in future
   - But where doese initial cash C_0 come from?
   - **이게 왜 문제인거?? cash랑 어떻게 연관이 되는거지? marcap?**
+      - 투자를 해야 매출도 오르고  market capital 도 오르니까 연관이 되어있다.
 
     - Young firms start with almost no cash, and are also not profitable
       - Main way to fund investment is raising external financing
@@ -175,7 +184,7 @@ tags:
   - ![](2021-09-08-21-13-19.png)
     - 조건 
       - 이번 년도에는 회사는 C_G를 받은 상태
-      - 투자는 같은데 R_1> R_2로 옵션 1이 수익률이 더 높다.
+      - 투자는 같은데 R_1> R_2로 올해가 수익률이 더 높다.
       - C_G : cashflow in good states (투자 후 회수한 돈)
       - C_B : cashflow in bad states (C_B< *I* 투자한 것 보다 회수 한 돈이 적음)
       - C_S : cash saved
@@ -205,7 +214,7 @@ tags:
   - Firms that **pay dividends instead of saving cash** are likely **not financially constrained**
   - Test relationship between **annual cashflows and investment across each subset of firms**
 
-- Data shows that effect of cashflows is strongest for most constrained firms, weakest for least constrained
+- Data shows that **effect of cashflows** is **strongest** for most **financially constrained firms**, **weakest** for **least constrained**
   - Indicates that investment depends on availability of internal funds
 
 - Very important one!!!
@@ -214,6 +223,8 @@ tags:
     - CF/K is largest and most significant at class1 with value of 0.461, and it gradually decreases at other classes
     - Same thing with R squred
     - So. Cash flow also matters!!!
+
+    ## Class 1 2 3 무슨 차이?
 
 ## Kaplan and Zingales (1997) critique 
 
@@ -241,3 +252,92 @@ tags:
 
 - ![](2021-09-08-23-45-16.png)
   - Increase in cash flow lead to increase in cash savings 
+
+## More recent evidence
+
+- Newer papers exploit exogenous shocks to corporate liquidity or internal funds
+  - Results show that financial constraints matter for investment
+
+- Lamont (1997) examines investment following 1986 oil price crash
+  - finds that oil companies cut investment in their non-oil subsidiaries
+  - oil price crash exogenous to these subsidiaries’ investment opps
+
+- Rauh (2006) shows that firms that must increase contributions to employee pension fund also cut Capex
+  - exploits law requiring firms with pension assets just below threshold to raise contributions
+  - RDD design compares firms just above and below threshold
+
+## Rauh (2006) RDD design
+
+- ![](2021-09-08-23-52-17.png)  
+  - You have to spend cash when
+
+## Rauh (2006) main result
+
+- ![](2021-09-08-23-54-21.png)
+
+>> Financial status do matter for the investments
+>> Companies do engagein precuasinary savings
+
+# Cash holdings: A challenge to theory
+
+- Public firms’ cash holdings have risen dramatically since 1980s
+in U.S., level is higher than any point in past century except WW2
+
+- Policymakers highly frustrated that firms are hoarding cash instead of investing to create jobs, growth
+  - central banks have driven savings rates on cash to record lows
+
+- Explanations that could reconcile this trend with traditional investment theories:
+  - Positive NPV investment opps less frequent than before 1980
+  - Financial constraints pose greater threat since 1980
+  - Something else changed around 1980?
+
+## Dramatic rise in cash holdings
+
+- ![](2021-09-09-15-19-55.png)
+  - 증가추세
+- ![](2021-09-09-15-20-23.png)
+- ![](2021-09-09-15-21-22.png)
+- ![](2021-09-09-15-21-39.png)
+- ![](2021-09-09-15-22-03.png)
+
+## Common explanations for cash holding
+- ![](2021-09-09-15-24-59.png)
+
+# New Evidence on Cash holding
+
+## Cash rising mostly at innovative firms
+
+- ![](2021-09-09-15-32-13.png)
+
+## Innovative frims hold more cash at IPO
+
+- ![](2021-09-09-15-33-28.png)
+ 
+## US-EU gap only among high-R&D firms
+
+- ![](2021-09-09-15-36-01.png)
+
+## Summary of recent trends
+
+- Cash holdings/Assets are at record highs, while CapEx spending consistently lower than predicted by Q
+
+- Trends started in 1980s, concentrated among innovative firms
+  - Cash holdings have risen mostly at high-R&D firms
+  - High-R&D firms hold much more cash at IPO
+  - Most US and EU firms hold similar cash levels, except for highest R&D firms 
+
+- Common explanation: Innovative firms are more constrained
+  - R&D creates intangible assets, which are poor collateral for raising external financing
+    - 교수님은 이거 x apple이 제일 많이 cash 들고 있음
+
+## Can intangibles and human capital explain recent trends? 
+
+- Doettling, Ladika, and Perotti (2019) offer alternative explanation based on how intangible assets created
+
+- Intangibles produced using employees’ knowledge and creativity
+  - such “human capital” investment doesn’t require spending much cash up front
+  - high R&D firms are not constrained, because they do not require much external financing
+
+- But employees can take intangibles when moving to another firm
+  - firms grant deferred pay to retain employees (e.g., stock options)
+  - need to hold onto project cashflows until pay vests

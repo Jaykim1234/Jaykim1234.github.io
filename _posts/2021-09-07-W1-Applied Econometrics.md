@@ -100,7 +100,6 @@ tags:
   - Conditional Random assignment
     - ![](2021-09-08-09-45-31.png)
   - Testing random assignment
-    - ![](2021-09-08-09-46-10.png)
     - ![](2021-09-08-09-50-51.png)
     - Tablue mean comparison
       - Experimental design
@@ -166,5 +165,17 @@ tags:
          - 전염성을 두 집단 모두 줄여서 생기는 것
      - Wrong standard errors (s.e)
        - ![](2021-09-08-19-03-09.png)
+       - 이분산성은 모델이
      - Fraud
        - prof Stapel from Tilburg Uni
+   - External validity
+     - ![](2021-09-09-13-13-28.png)!
+       - General equilibrium effects???
+       - Black Box???
+# f
+## Summary
+
+- ![](2021-09-09-13-34-48.png)
+
+
+![](2021-09-09-13-37-27.png)
