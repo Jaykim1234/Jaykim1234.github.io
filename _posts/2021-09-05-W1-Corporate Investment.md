@@ -344,18 +344,20 @@ in U.S., level is higher than any point in past century except WW2
 
 ## 1. Corporate investment: Theory and Evidence
 
-*a. Describe two theories of corporate investment that were discussed during the course. State one variable that is central to each theory, and describe its predicted effect.*
-
-## Q theory: 
-- Increase in Tobin's Q leads to increase in investment
-
-## Financial constraints
-- An increase in **cashflows** leads to an increase in **investment**. Or leads to and increase in **cash savnings.** ( Anticipate a problem and saves )
-
->> ## Note This answer is Only for constrained firms!
-
-
-*b. A researchers estimates the following OLS regression of investment on Tobin’s Q and cashflows, for a large sample of firms and years*
+- *a. Describe two theories of corporate investment that were discussed during the course. State one variable that is central to each theory, and describe its predicted effect.*
+  - Answer
+    - ## Q theory: 
+      - Increase in Tobin's Q leads to increase in investment
+      - Q: independent variable, Investment: dependent variable
+    
+  >> ## Note This hypothesis is only for constrained firms!
+    - ## Financial constraints
+      - An increase in **cashflows** leads to an increase in **investment**. Or leads to and increase in **cash savings.** ( Anticipate a problem and saves )
+        - cashflows >> investment
+        - OR
+        - cashflows >> cash savings
+  
+- *b. A researchers estimates the following OLS regression of investment on Tobin’s Q and cashflows, for a large sample of firms and years*
 
 ![](2021-09-13-15-23-25.png)
 
@@ -364,84 +366,122 @@ in U.S., level is higher than any point in past century except WW2
 
 이거는 t-test 한 것
 
-**80.016, 0.42 둘 다 positive니까 Tobin's Q and Cashflow/Assest positively correlated/ increase and increaes both**
+- Answer
+  - 확인해야 할 것!
+    1. Direction
+    2. Significance
 
-1.79, 4.15 :  t-statistics
+  - Direction
+    - **0.016, 0.42 둘 다 positive니까 Tobin's Q and Cashflow/Assest both positively correlated with investment**
+  
+  - Significance
+    - What being siginificant means?
+      - more sure that estimates are reliable
+    - Check
+      - star
+        - *** : 1% significant
+        - **  : 5% significant
+      - t-statistics
+        - 2   : generally at 5% level siginificant
+        - 2.7 : generally at 1% level siginificant
 
-**주의: 0.42가 0.016보다 크다고 해서 Cashflow 효과가 더 크다고  할 수 없다!!! 비교 불가 (Apple and orange ) 그냥 각각 얼마만큼씩 오르는지만 말하면 된다**
+  >> **주의** 
+    **0.42가 0.016보다 크다고 해서 Cashflow 효과가 더 크다고  할 수 없다!!! 비교 불가 ( Apple and orange ) Tobin Q 와 Cashflow/asset은 단위가 서로 다르기 때문이다. 그냥 각각 얼마만큼씩 오르는지만 말하면 된다**
+      - Tobin's Q up by one unit > investment increase by 0.016
+      - Cashflow/Assets up by one unit > investment increase by 0.42
+        - 여기서 Tobin's Q, Cashflow/Assets one unit의 단위가 다르다는 것이다. 
+        - They don't have the same unit
 
-R^2가 매우 낮다 >>  mesurement error >>Fianancial constraint theory 좀더 낫다
-
-mesurement error 나오는 경로
-  - book value of debt
-  - 
-
-*which investment theory seems to have more support from these results?*
-
-Fianancial constraint theory
-
+- Answer 2
+  >> 중요
+  - Fianancial constraint theory is better
+    - Reason
+      - The coefficient is positive as predicted
+      - This is higly significant
+      - Q theoy expects that Q can explain everything
+        - According to Q theory, other variables shouldn't be significant and R^2 should be close to 1.
+  
+Mesurement error 
+  - 얘 때문에 coefficient가 0에 가까워 진다.
+  - 또한 mesurement error 가 R^2도 감소 시킬 수 있다.
+  - mesurement error is not the only problem here
+    - **Where mesurement error come?**
+      - Calculation of depreciation at accounting is very rough.
+        - This makes estimation of market value incorrect 
+      - numberator should include market value of debt but book value of debt is often used
 
 *c. Describe one econometric issue that could affect the above results. Explain how this issue could explain the discrepancy between theory and the above results.*
 
 ## 2. Motivation for precautionary savings
 
-*a. Explain why it may be optimal for some firms to pass up investment opportunities today, and instead save cash to invest in future years.*
+- *a. Explain why it may be optimal for some firms to pass up investment opportunities today, and instead save cash to invest in future years.*
 
-pass 못들음
+  - Every company knows that 'future is unpredictable'. So do the precautionary savings
+  - However not all firms face this problem
+    - Firms that can borrow their funds at donwturn are not financially constrained.(Through bank or issuing bonds) So they would not engaged in precautionary savings
+  - **그래서 prcautionary saving을 위해서는 '두' 가지 조건이 충족이 되어야 한다.**
+    1. Future is unpredictable
+    2. Hard to get external financing
 
-*b. Consider a company that currently has cash holdings of 200, and has access to two investment projects. Both projects require upfront investment of 100, and both return 120 in the same year.* 
+- *b. Consider a company that currently has cash holdings of 200, and has access to two investment projects. Both projects require upfront investment of 100, and both return 120 in the same year.* 
 
-*Next year, with certainty the company will have access to two new projects that are identical to the ones described above. With probability of 0.6 the firm’s cashflows next year will be 100, and with probability 0.4 they will be 0. The discount rate is 0.1. Cash earns a risk-free return of 0.*
+- *Next year, with certainty the company will have access to two new projects that are identical to the ones described above. With probability of 0.6 the firm’s cashflows next year will be 100, and with probability 0.4 they will be 0. The discount rate is 0.1. Cash earns a risk-free return of 0.*
 
-*This year, should the firm save 100 of the cash for precautionary reasons, or invest 200 in both projects?* 
+- *This year, should the firm save 100 of the cash for precautionary reasons, or invest 200 in both projects?* 
+  - Answer
 
-## Invest in both projects in this year
+    - ## Invest in both projects in this year
 
--2x100  +2x120/(1+0.1) + **0.6x(100/1.1-100/1.1+120/(1+0.1)^2)  + 0.4x0**
+      -2x100  +2x120/(1+0.1) + **0.6x(100/1.1-100/1.1+120/(1+0.1)^2)  + 0.4x0**
+        - the number of projects x upfront investment cost + the number of projects x return of projects/(1+ discount rate) + the probability of project 1 x ( cashflow/(1+discount rate) - upfront investment cost/(1+discount rate)  return of projects/(1+ discount rate)^2) + the probability of project 2 * 0
 
-## Precausautionary savings
+    - ## Precausautionary savings
 
--2x100  +120/(1+0.1) + **0.6x(200/1.1-200/1.1+2x120/(1+0.1)^2) + 0.4x(100/1.1-100/1.1+120/(1+0.1)^2)**
+      -2x100  +120/(1+0.1) + **0.6x(200/1.1-200/1.1+2x120/(1+0.1)^2) + 0.4x(100/1.1-100/1.1+120/(1+0.1)^2)**
+        - Good case 에서는 돈이 생겨서 어차피 투자할 돈이 있다. 그래서 무조건 투자하는거
+        - Bad case에서는 투자할 돈이 없다.
+          - Saving이 있어야만 투자할 수 있다.
 
-## Trade-off Giveup second-best project today to save cash and ensure you can invest in best project next year
-
-
+    - ## Trade-off Giveup second-best project today to save cash and ensure you can invest in best project next year
 
 
 ## 3. Determinants of corporate cash holdings
 
-*a. State three variables that prior empirical work has found to be associated with corporate cash holdings. Choose one of these variables, and carefully explain why theory predicts that it should affect cash holdings.*
+- *a. State three variables that prior empirical work has found to be associated with corporate cash holdings. Choose one of these variables, and carefully explain why theory predicts that it should affect cash holdings.*
+  - Answer
+    - Precautionary savings/financial constraints
+      - Firms that are financially constrained are more likely to do cash savings
+    - Taxes
+      - When US taxes were too high, many firms hold cash in foreign countries. They waited until US governments eases the tax laws
+    - Agency problems
+      - 그냥 자기 이익 때문에 cash 저축 안하고 투자 막 하는 것
+    - Retention of knowledge workers
+      - Showing good financial positions  to the workers. So that companies can hire good workers
 
-- Precautionary savings/financial constraints
-- Taxes
-- Agency problems
-  - 
-- Retention of knowledge workers
-  - Showing good positions financially to the workers
 
+- *b. Explain why firms with large amounts of intangible assets may be financially constrained.*
+  - Answer
+    - Intangible assets such as brand.
+    - A lot of coporate value comes from intangible values. Because these are not fixed, 
+    - collateral (담보로 연계되는 거)
+      - coporate loan: collateral: 회사 지분, 등등
 
+    - Intangible assest is not coolateral (연계되지 않는다는 말)
 
-*b. Explain why firms with large amounts of intangible assets may be financially constrained.*
+    - A lot of Intangile assest (ex, software) does not promise collateral >>  Not promise collateral means hard to get a loan
+      - Why software cannot be a collateral.
+        - it takes years to finish products, and this cannot be sold when developing is in progress
 
-Intangible assets such as brand.
-A lot of coporate value comes from intangible values. Because these are not fixed, 
-collateral(담보로 연계되는 거.)
-coporate loan: collateral: 회사 지분, 등등
+- *c. Suppose firms hold cash only to avoid becoming financially constrained in the future. What does the below figure imply about how financial constraints have evolved over time?*
 
-Intangible assest is not coolateral(연계되지 않는다는 말)
-
-A lot of Intangile assest(ex, software) does not promise collateral>>
-Not promise collateral means hard to get a loan
-Why software cannot be a collateral.
- it takes years to finish products, and this cannot be sold when developing is in progress
-
-*c. Suppose firms hold cash only to avoid becoming financially constrained in the future. What does the below figure imply about how financial constraints have evolved over time?*
-
-The only reason to hold cash is precautionary savings
-- ![](2021-09-13-16-02-40.png)
-  - 
-  - Increase in cash holding in blue line means increase in financial constraints
-  - There are probably many reason why cash holdings increase
+  - Answer
+    - The only reason to hold cash is precautionary savings
+    - ![](2021-09-13-16-02-40.png)
+      - Interpretation
+        - High intangible Firms hold more cashflow
+        - They are more constrained overtime
+          - Increase in cash holding in blue line may mean the increase in financial constraints
+      - There are probably many reason why cash holdings increase
  
 
 
