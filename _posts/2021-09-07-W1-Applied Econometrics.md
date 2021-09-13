@@ -12,38 +12,43 @@ tags:
 
 # Part A
 
-- Causal inference
-  - 종속 변수를 바꾸면 독립 변수가 **어떻게 변할 까**?
+- ## Causal inference
+  - 종속 변수를 바꾸면 독립 변수가 **어떻게 변할까**?
   - ![](2021-09-07-10-10-02.png)!
     - 내가 학교를 15년 다니는 것에서 16년 다니면 income이 얼마 오른다.
     - 여기서 관건은 이 연관 관계가 진짜인지 단순히 같이 나타나는 현상인지 알아내야 한다.
 
 
-- Prediction
+- ## Prediction
   - 종속 변수 Y를 **예측** 하는 것
   - ![](2021-09-07-10-12-34.png)
     - 형광펜 부분을 예측
 
-# Part B
+# Part B (OLS & Endogeneity)
+
+- ## 목차
+  - ## Estimation and interpretation
+  - ## Endogenetiy and inconsistency
+  - ## Source of endogenetiy
 
 - OLS: Drawing a line through data(CH4, p146-159)
   - ![](2021-09-07-10-22-56.png)
   - ![](2021-09-07-10-34-58.png)
-  - ![](2021-09-07-10-35-19.png)
   - ![](2021-09-07-10-40-32.png)
 
   -Core assumptions
-    - ![](2021-09-07-10-41-46.png)
     - ![](2021-09-07-10-43-15.png)
+    - log regression 해석
+      - %로 해석!
+        - ![](2021-09-12-11-24-58.png)
     - Consistency
-      - ![](2021-09-07-14-17-19.png)
       - ![](2021-09-07-14-23-15.png)
   - Endogeneity
     - Endogeneity leads to OLS inconsistency
       - ![](2021-09-07-14-24-59.png)
       - ![](2021-09-07-14-26-41.png) 
     - Sources of endogeneity
-      - ??
+
       - ![](2021-09-07-14-36-48.png)
       - ![](2021-09-07-14-37-18.png)
 
@@ -81,9 +86,7 @@ tags:
   - ![](2021-09-08-09-06-02.png)
 - Identifiaction: Solutions to the counterfactual problem
   - ![](2021-09-08-09-06-56.png)
-  - ![](2021-09-08-09-07-11.png)
   - Identification 2가지 방법
-
     - ![](2021-09-08-09-09-59.png)
 
 # Part D 
@@ -92,10 +95,9 @@ tags:
 
 - Experiments in the social sciences
   - ![](2021-09-08-09-29-09.png)
-- Identification using **experimental** data 
+>> ## Identification using **experimental** data 
   - ![](![](2021-09-08-09-35-30.png).png)
   - Unconditional Random assignment
-    - ![](2021-09-08-09-36-16.png)
     - ![](2021-09-08-09-37-37.png)
   - Conditional Random assignment
     - ![](2021-09-08-09-45-31.png)
@@ -121,7 +123,6 @@ tags:
 
 ## Good Control
 
-- ![](2021-09-08-10-21-15.png)
 - ![](2021-09-08-10-26-34.png)
 - Case #1
   - Conditional Assignment: Only CMI holds

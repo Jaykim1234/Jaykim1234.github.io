@@ -5,7 +5,6 @@ categories:
   - Advanced Corporate Investment
 tags:
   - ACF-W1-01-Identifying Investmet Opportunity
-  - ACF-W1-01-Identifying Investmet Opportunity
 ---
 
 
@@ -340,3 +339,109 @@ in U.S., level is higher than any point in past century except WW2
 - But employees can take intangibles when moving to another firm
   - firms grant deferred pay to retain employees (e.g., stock options)
   - need to hold onto project cashflows until pay vests
+
+# Problems and solutions
+
+## 1. Corporate investment: Theory and Evidence
+
+*a. Describe two theories of corporate investment that were discussed during the course. State one variable that is central to each theory, and describe its predicted effect.*
+
+## Q theory: 
+- Increase in Tobin's Q leads to increase in investment
+
+## Financial constraints
+- An increase in **cashflows** leads to an increase in **investment**. Or leads to and increase in **cash savnings.** ( Anticipate a problem and saves )
+
+>> ## Note This answer is Only for constrained firms!
+
+
+*b. A researchers estimates the following OLS regression of investment on Tobin’s Q and cashflows, for a large sample of firms and years*
+
+![](2021-09-13-15-23-25.png)
+
+
+*Interpret each of the coefficients. Which investment theory seems to have more support from these results?*
+
+이거는 t-test 한 것
+
+**80.016, 0.42 둘 다 positive니까 Tobin's Q and Cashflow/Assest positively correlated/ increase and increaes both**
+
+1.79, 4.15 :  t-statistics
+
+**주의: 0.42가 0.016보다 크다고 해서 Cashflow 효과가 더 크다고  할 수 없다!!! 비교 불가 (Apple and orange ) 그냥 각각 얼마만큼씩 오르는지만 말하면 된다**
+
+R^2가 매우 낮다 >>  mesurement error >>Fianancial constraint theory 좀더 낫다
+
+mesurement error 나오는 경로
+  - book value of debt
+  - 
+
+*which investment theory seems to have more support from these results?*
+
+Fianancial constraint theory
+
+
+*c. Describe one econometric issue that could affect the above results. Explain how this issue could explain the discrepancy between theory and the above results.*
+
+## 2. Motivation for precautionary savings
+
+*a. Explain why it may be optimal for some firms to pass up investment opportunities today, and instead save cash to invest in future years.*
+
+pass 못들음
+
+*b. Consider a company that currently has cash holdings of 200, and has access to two investment projects. Both projects require upfront investment of 100, and both return 120 in the same year.* 
+
+*Next year, with certainty the company will have access to two new projects that are identical to the ones described above. With probability of 0.6 the firm’s cashflows next year will be 100, and with probability 0.4 they will be 0. The discount rate is 0.1. Cash earns a risk-free return of 0.*
+
+*This year, should the firm save 100 of the cash for precautionary reasons, or invest 200 in both projects?* 
+
+## Invest in both projects in this year
+
+-2x100  +2x120/(1+0.1) + **0.6x(100/1.1-100/1.1+120/(1+0.1)^2)  + 0.4x0**
+
+## Precausautionary savings
+
+-2x100  +120/(1+0.1) + **0.6x(200/1.1-200/1.1+2x120/(1+0.1)^2) + 0.4x(100/1.1-100/1.1+120/(1+0.1)^2)**
+
+## Trade-off Giveup second-best project today to save cash and ensure you can invest in best project next year
+
+
+
+
+## 3. Determinants of corporate cash holdings
+
+*a. State three variables that prior empirical work has found to be associated with corporate cash holdings. Choose one of these variables, and carefully explain why theory predicts that it should affect cash holdings.*
+
+- Precautionary savings/financial constraints
+- Taxes
+- Agency problems
+  - 
+- Retention of knowledge workers
+  - Showing good positions financially to the workers
+
+
+
+*b. Explain why firms with large amounts of intangible assets may be financially constrained.*
+
+Intangible assets such as brand.
+A lot of coporate value comes from intangible values. Because these are not fixed, 
+collateral(담보로 연계되는 거.)
+coporate loan: collateral: 회사 지분, 등등
+
+Intangible assest is not coolateral(연계되지 않는다는 말)
+
+A lot of Intangile assest(ex, software) does not promise collateral>>
+Not promise collateral means hard to get a loan
+Why software cannot be a collateral.
+ it takes years to finish products, and this cannot be sold when developing is in progress
+
+*c. Suppose firms hold cash only to avoid becoming financially constrained in the future. What does the below figure imply about how financial constraints have evolved over time?*
+
+The only reason to hold cash is precautionary savings
+- ![](2021-09-13-16-02-40.png)
+  - 
+  - Increase in cash holding in blue line means increase in financial constraints
+  - There are probably many reason why cash holdings increase
+ 
+
+
