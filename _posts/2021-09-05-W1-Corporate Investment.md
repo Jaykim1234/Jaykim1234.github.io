@@ -300,6 +300,7 @@ in U.S., level is higher than any point in past century except WW2
 
 ## Common explanations for cash holding
 - ![](2021-09-09-15-24-59.png)
+  - **위험을 대비한 저축과 세금이 cash holding을 하도록 하는 주요한 요인**
 
 # New Evidence on Cash holding
 

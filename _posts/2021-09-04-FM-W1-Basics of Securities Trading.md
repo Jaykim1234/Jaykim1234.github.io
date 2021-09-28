@@ -5,8 +5,7 @@ categories:
   - UvA_Financial Markets
 tags:
   - SET
-  - MERGE
-  - SQL
+
 ---
 
 ## **ㅁ Key Concepts**
