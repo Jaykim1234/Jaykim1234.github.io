@@ -32,9 +32,29 @@ tags:
   -  a. Below is an excerpt of Table 4 from Berg et al. (2020). The dependent variable is a binary indicator that equals 1 if a customer’s debt claim was transferred to a collection agency. The explanatory variables include credit scores and the operating system used by the customer. “Desktop/Windows” is the baseline, so other operating system coefficients are relative to this group.
   -  Describe the key findings from each regression column. What could explain the relationship between default rates and mobile operating systems?
     - ![](2021-09-28-19-50-25.png)
+      - Answer
+         - Desktop/Windows is excluded. 이거는 기준 점
+         - Desktop/Macintocsh
+         - Mobile phone는 더 default 가능성 높음
+
+         - 세번째 열에서 알 수 있는 것 
+         : Credit score is capturing somethings that types of systems do not capture
+
+         - Mobile phone situation would be more natural or busy so buyers become more imperse
+         - Mobile phone users could be younger
+         - iphones are relatively expensive than Android
+
+
   
   - b. Below are coefficients on additional explanatory variables from the regressions. What could explain the relationship between default rates and “Name in email”, or “Is lowercase”?
     - ![](2021-09-28-20-17-53.png)
+    - Answer
+      - Customer fraud?
+        -  Name in email (@uva.nl)more negatively correlated >> Highly educated >> richer
+        - Everything in lower case. >> Low education or careless >> More default rate
+         
+      -  These variable are capturing something cwe can’t obeserve
+
 
 - ## Q3.FinTech Disruptions of Traditional Finance
   - a. Describe a typical peer-to-peer lender’s role in the loan process.
