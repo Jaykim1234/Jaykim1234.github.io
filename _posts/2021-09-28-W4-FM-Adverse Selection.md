@@ -28,8 +28,10 @@ increased losses by increasing profits from the liquidity traders.
   - 한 개만 거래가 된다.
   - 참여자 종류
     - 미래 가치 아는 사람
-    - 
     - 대표 딜러
+    - ![image](https://user-images.githubusercontent.com/78076248/136704440-321bd04e-0df8-4268-8545-5620075ae11b.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/136704472-5cf828db-3bbd-44ac-875d-378034b13742.png)
+
 - ![](2021-09-28-09-26-00.png)
   - 1. ask bid 있음
   - 2. Trader는 informed나 liquidity trader 이다.
