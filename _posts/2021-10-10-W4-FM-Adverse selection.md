@@ -4,23 +4,32 @@ title:  "FM-W4-Adverse selection"
 categories:
   - UvA_Financial Markets
 tags:
-  - The 3 dimensions of market liquidity
-  - Measuring liquidity in practice
-  - Amihud’s (2002) illiquidity measure
-  - Roll’s (1984) bid-ask spread estimator
+  - Adverse selections
 ---
 
 - ## Dealer's type
-    - **Informed trader**
-      - 정보가 많은 사람들
-    - **Liquidity trader**
-      - 유동성을 위해서 그냥 거래
-      - Trade for non-speculative reason
-    - representative dealer
-      - Expected profit = zero
-    - ![image](https://user-images.githubusercontent.com/78076248/136704440-321bd04e-0df8-4268-8545-5620075ae11b.png)
-    - ![image](https://user-images.githubusercontent.com/78076248/136704472-5cf828db-3bbd-44ac-875d-378034b13742.png)
+  - **Informed trader**
+    - 정보가 많은 사람들
+  - **Liquidity trader**
+    - 유동성을 위해서 그냥 거래
+    - Trade for non-speculative reason
+  - representative dealer
+    - Expected profit = zero
+  - ![image](https://user-images.githubusercontent.com/78076248/136704440-321bd04e-0df8-4268-8545-5620075ae11b.png)
+  - ![image](https://user-images.githubusercontent.com/78076248/136704472-5cf828db-3bbd-44ac-875d-378034b13742.png)
+  - 문제
+    - ![image](https://user-images.githubusercontent.com/78076248/136712462-193e7018-2158-47be-b455-e3de70ef02ec.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/136712540-ba3c7d71-db5e-46a5-b71a-61bc31f4362b.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/136712568-de2b7ff2-7d27-417f-b337-54bf34bc18ee.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/136712576-dabe7aa7-80af-493c-bcdf-c07d1c3cc577.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/136712582-ed755a97-88ec-4ef8-8f1e-12998de35aea.png)
 
+
+
+
+
+
+<!-- 
 
 - ## Informed Trading and the Bid-Ask Spread
     - Dealers (or MMs/LPs) face two types of traders:
@@ -89,4 +98,4 @@ tags:
   - s
   - Not illegal
   
-- ![](2021-09-28-10-47-13.png)
+- ![](2021-09-28-10-47-13.png) -->
