@@ -10,7 +10,7 @@ tags:
   - Roll’s (1984) bid-ask spread estimator
 ---
 
-## Dealer's type
+- ## Dealer's type
     - **Informed trader**
       - 정보가 많은 사람들
     - **Liquidity trader**
