@@ -6,13 +6,32 @@ categories:
 tags:
   - ACF-W1-01-Identifying Investmet Opportunity
 ---
+
+- ## Fintech의 특징
+  - Internet or mobile technology의 사용
+  - 자동화된 결정을 위해서 statistical learning의 사용
+  - 블록체인으로 decentaralized transaction 
+- ## Fintech의 주요 혁신
+  - 비 은행들이 대출을 한다.
+  - Robo-advising algorithms
+- ## Fintech가 현재 할 수 없는 것
+  - M&A advising
+  - risk mangement(complex trades)
+  - Valuation (growth opps, illiquid securities, intangible assets)
+- ## 잡다한 것
+  - soft data : qualitative >> loan office 사람이 사용
+  - hard data : quantiative >> credit score 같은거에 사용
+  - Digital Credit Scores 에서 주요한 결과는 AUC
+
+
+
 - ## Q1.Big Data and Bank Lending    
   - a. Briefly describe two comparative advantages that a bank has over a FinTech firm for evaluating the creditworthiness of loan applicants. 
     - Why bank better than fin tech firms
       - More experiece/experise
       - Info from long-term relationships
      
-  -  b. Charles Schwab Inc. combines banking and brokerage services: Any client with a bank account can also open a brokerage account, and enjoy a 50% discount on trading fees. Trade discounts cost Schwab -3 per year. Each year, Schwab offers loans that mature in 2 years, have principal of 100, and pay an annual interest rate of 12%. Schwab’s cost of capital is 5%. 
+  -  b. Charles Schwab Inc. combines banking and brokerage services: Any client with a bank account can also open a **brokerage account**, and enjoy a **50% discount on trading fees**. **Trade discounts cost** Schwab **-3** per year. Each year, Schwab offers loans that **mature** in **2 years**, have **principal** of **100**, and pay an **annual interest rate of 12%**. Schwab’s **cost of capital** is **5%**. 
     - **annual interest** : 매년 이자를 번다는 것, 마지막 해는 원금 + 이자
 
     - The pool of loan applicants is split equally between good and bad borrowers. A good borrower repays the loan in full. A bad borrower makes the first coupon payment, but misses the second coupon and repays only 75% of principal. Schwab can’t distinguish between good and bad borrowers. But if a good borrower also has a brokerage account, then Schwab obtains a signal that their application is good with probability p > 0.5. 
@@ -20,7 +39,7 @@ tags:
      - Suppose Schwab receives one loan application per year with a “good” signal. Is bundling a positive NPV project for Schwab when p = 0.8? What if p = 0.66?
     
     - ## Answer
-      -  NPV = -3 + 100 + 0.8 *(12/1.05 + 112/1.05^2) + 0.2(12/1.05 + 75/1.05^2) =  3.3
+      - NPV = -3 + 100 + 0.8 *(12/1.05 + 112/1.05^2) + 0.2(12/1.05 + 75/1.05^2) =  3.3
       - NPV = -3 + 100 + 0.66*(12/1.05 + 112/1.05^2) + 0.34(12/1.05 +75/1.05^2) = -2.8
 
   - c. A discount online brokerage enters the market and offers free trading to all users. It captures 200,000 of Schwab’s users, and reduces those users’ annual trading fees by €200 on average. But each year 10% of these users would like to apply for a loan from Schwab. Each loan would be used to start a business that generates NPV of €2,500. The users cannot get a loan from elsewhere. Is the discount brokerage’s entry good or bad overall for brokerage users? 
@@ -72,8 +91,8 @@ tags:
        -  Banks takes a lot of risk with consumer's deposit. So they can't pay
        -  Deposit insurance can be. This case government face the cost
        -  정부나 다른 사람이 그 위험의 여파에 휩쓸린다.
-  -  c. peer to peer lender 가 은행 만큼 규제를 받지 않은 이유
-    - This is not moving money. So they don't fit the legal definition ot the banks
+  - ## c. peer to peer lender 가 은행 만큼 규제를 받지 않은 이유
+    - This is not moving money. So they don't fit the legal definition on the banks
     - They are not taking money from ordinary individuals
     - ## One implication
       - ## Because they are not highly regulated as banks, they can make a loan that banks don't want to do
@@ -81,7 +100,7 @@ tags:
     - Example of **shadow banking**
       - Def: any type of bank that do not belong to ordinary bank definition
       - 
-- Q4. Tradeoffs in Statistical Learning
+- ## Q4. Tradeoffs in Statistical Learning
     -  a.The top chart below shows a set of data points in a training sample (blue dots) along with two estimated models that attempt to fit the data (orange and gray lines). The bottom chart shows a different set of data points, in a testing sample. 
     -  Which model in the training sample has higher bias? Which model is more likely to have higher variance, when applied to the testing sample? 
 
