@@ -29,15 +29,13 @@ increased losses by increasing profits from the liquidity traders.
   - 참여자 종류
     - 미래 가치 아는 사람
     - 대표 딜러
-    - ![image](https://user-images.githubusercontent.com/78076248/136704440-321bd04e-0df8-4268-8545-5620075ae11b.png)
-    - ![image](https://user-images.githubusercontent.com/78076248/136704472-5cf828db-3bbd-44ac-875d-378034b13742.png)
 
-- ![](2021-09-28-09-26-00.png)
+
+- ![image](https://user-images.githubusercontent.com/78076248/136704440-321bd04e-0df8-4268-8545-5620075ae11b.png)
   - 1. ask bid 있음
   - 2. Trader는 informed나 liquidity trader 이다.
-- ![](2021-09-28-09-28-18.png)
   - ask price
-- ![](2021-09-28-09-31-42.png)
+- ![image](https://user-images.githubusercontent.com/78076248/136704472-5cf828db-3bbd-44ac-875d-378034b13742.png)
   - bid price
 - ![](2021-09-28-09-32-53.png)
   - Spread는 adverse selection 에 대한 보상
