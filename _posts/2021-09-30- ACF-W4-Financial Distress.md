@@ -150,12 +150,14 @@ tags:
         - 1.Restructure debt?
         - 2.Bankruptcy court? : 
           - ![image](https://user-images.githubusercontent.com/78076248/137012693-d1d49e63-2a7e-47bd-ae1e-f4656468f23a.png)
+
 ## Q3 Creditor coordination
+  -a.
   - ![image](https://user-images.githubusercontent.com/78076248/137013269-baa20243-31b0-4f1d-9ae7-eb3d86e17fb0.png)
     - Holdout(채무 재조정을 거부하는 문제)
- 
     - The holdout problem occurs when *some creditors are owed significantly more than others*. Small creditors may attempt to sit out a renegotiation, because they anticipate that the larger creditors will take most of the haircut as they have more money at stake.
     - 채무가 조금만 있는 사람들이 채무가 많은 사람들이 거의 다 가져갈까봐 채무 재조정을 거부하는 것
+  - b.
   - ![image](https://user-images.githubusercontent.com/78076248/137013293-0aa3eab4-0908-4665-abc8-71c8919e1eff.png)
     - Bankruptcy: 55 (cash- bankrupty fee = 85-30); A:0.6 x 55=33; B,C,D,E
     - Out of court renegotiation: A:100 x 0.6 -15 =45 (A가 100에서 85로 깎인 만큼의 손실을 전부 떠받음); 85-45=40 이만큼을 B,C,D,E가 또 나눔(?)
