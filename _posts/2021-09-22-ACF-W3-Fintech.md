@@ -24,7 +24,6 @@ tags:
   - Digital Credit Scores 에서 주요한 결과는 AUC
 
 
-
 - ## Q1.Big Data and Bank Lending    
   - a. Briefly describe two comparative advantages that a bank has over a FinTech firm for evaluating the creditworthiness of loan applicants. 
     - Why bank better than fin tech firms

@@ -4,7 +4,7 @@ title:  "ACF-W4-Financial distress"
 categories:
   - Advanced Corporate Finance
 tags:
-  - ACF-W1-01-Identifying Investmet Opportunity
+  - A
 ---
 
 # Topic 1: Intro to Financial Distress
@@ -98,33 +98,44 @@ tags:
 
 # Problem and solution
 
-## 1. cost of financial distress
-   - ## a.
+## 1. Cost of financial distress
+   - ## a. 
+     - Explain the difference between direct and indirect costs of financial distress. 
+     - ## Direct cost
+       - incurred only during bankruptcy
+       - 파산했을 때만 생김
+     - ## Indirect costs
+       - incurred starting from when a firm first becomes financially constrained
+       - 재정적으로 곤란해지면서 생기는 것
+
    - ## b. 
      - Firm A and Firm B have access to the same investment project, which generates cashflows of either 80 or 40 next year with equal probability. The only difference  between the firms is that A has issued debt of 20 while B has issued debt of 60. Is either firm financially distressed? If yes, provide one reason why the distressed firm’s current value could be lower than the non-distressed firm.
 
-       - Answer
+       - *Answer*
+         - 핵심 용어: **Distress costs**
+        - Firm B is financially distressed because there is a high chance it will not repay its debt in the near future. Its value will be less than that of A because it may experience deadweight distress costs
+
          - Firm A -> will not default on it debt in both states -> debt of A is risk free
          - Firm B -> will default in bad state 40<60
+         
          ## why value of firm B today < value of firm A?
-         - Value of A = value of equity +value of debt = value of asset = expected value of all cashflows = 0.5x80 +0.5  x40
-         - Value of B = expected valuy of all cashflows(equity + debt) = 0.5x80 + 0.5x30(?)
-         - ![](2021-10-04-15-22-43.png)
+         - Value of A = value of equity + value of debt = value of asset = expected value of all cashflows = 0.5x80 + 0.5x40
+         - Value of B = expected value of all cashflows (equity + debt) = 0.5x80 + 0.5x30(?)
+           - 30으로 적은 이유는 B회사는 **distress cost**로 인해서 손해를 보았기 때문에 A 회사 40 보다 낮아야 하기 때문이다. 30은 임의로 정한 수
      - ## c. 
-       - ![](2021-10-04-15-25-08.png)
         - B 회사에서는 indirect cost 때문에 8씩 뺀다
         - Debt holder 에게는 cash flow에서 돈 다 빼서 우선 준다.
-        - ![](2021-10-04-15-31-54.png)
+        - ![image](https://user-images.githubusercontent.com/78076248/136922770-8319e833-fc49-4740-bb5d-902cbdec7671.png)
         - Difference of values:
 
 ## Q2. Restructuring debt out of court
-  - ![](2021-10-04-15-34-28.png)
+  - ![image](https://user-images.githubusercontent.com/78076248/137010858-7b84e6c9-8ae1-48e3-9103-f55502b80636.png)
     - Two options for creditors
       - 1.Restructure debt? : 60 + E(future profits)
-      - 2.Bankruptcy court? : 70= cash - bankruptcy fee + asset value(by liquidating) 60-40+50
+      - 2.Bankruptcy court? : 70 = cash - bankruptcy fee + asset value(by liquidating) 60-40+50
       - bankruptcy fee : 채무자들이 회사를 처분할 때 내야하는 비용
     - E(future profits) < 10, choose for 2
-  - ![](2021-10-04-15-41-16.png)
+  - ![image](https://user-images.githubusercontent.com/78076248/137012441-e61b3972-c716-45e6-9020-99e720ae4833.png)
     - blue part is a very strong assumption
     - Two options for creditors
       - 1.Restructure debt? : 90 = 60 + 30
@@ -134,16 +145,19 @@ tags:
       - 1.Restructure debt? :  0 + E(future profits)
       - 2.Bankruptcy court? :  0
         - 왜 0? 어차피 이득보는거는 없음 미래를 노려볼 수는 있다.
-    - ![](2021-10-04-15-52-31.png)
+    - ![image](https://user-images.githubusercontent.com/78076248/137012633-f58a7d3a-22f0-4e5f-b7d8-234f0e4e186d.png)
       - Two options for creditors
         - 1.Restructure debt?
         - 2.Bankruptcy court? : 
-          - ![](2021-10-04-15-54-34.png)
+          - ![image](https://user-images.githubusercontent.com/78076248/137012693-d1d49e63-2a7e-47bd-ae1e-f4656468f23a.png)
 ## Q3 Creditor coordination
-  - ![](2021-10-04-16-07-16.png)
-    - Holdout
-  - ![](2021-10-04-16-09-48.png)
-    - Bankruptcy: 55(cash- bankrupty fee); A:0.6 x 55=33; B,C,D,E
-    - Out of cour renegotiation: A:100 x 0.6 -15 =45; 85-45=40
-    - ![](2021-10-04-16-17-11.png)
+  - ![image](https://user-images.githubusercontent.com/78076248/137013269-baa20243-31b0-4f1d-9ae7-eb3d86e17fb0.png)
+    - Holdout(채무 재조정을 거부하는 문제)
+ 
+    - The holdout problem occurs when *some creditors are owed significantly more than others*. Small creditors may attempt to sit out a renegotiation, because they anticipate that the larger creditors will take most of the haircut as they have more money at stake.
+    - 채무가 조금만 있는 사람들이 채무가 많은 사람들이 거의 다 가져갈까봐 채무 재조정을 거부하는 것
+  - ![image](https://user-images.githubusercontent.com/78076248/137013293-0aa3eab4-0908-4665-abc8-71c8919e1eff.png)
+    - Bankruptcy: 55 (cash- bankrupty fee = 85-30); A:0.6 x 55=33; B,C,D,E
+    - Out of court renegotiation: A:100 x 0.6 -15 =45 (A가 100에서 85로 깎인 만큼의 손실을 전부 떠받음); 85-45=40 이만큼을 B,C,D,E가 또 나눔(?)
+    - ![image](https://user-images.githubusercontent.com/78076248/137013320-13e9c1f4-6d2a-4325-b8b4-2b862ae77efc.png)
    
